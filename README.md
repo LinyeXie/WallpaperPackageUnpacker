@@ -53,6 +53,8 @@ The output root directory can be changed in Preferences.
 5. Open the output directory after the task is complete.
 6. Configure media export settings when image or video output is required.
 
+<img width="1360" height="941" alt="image" src="https://github.com/user-attachments/assets/325c8a5d-f51f-4dd2-91b1-40d52521a3af" />
+
 ## Project
 
 Project homepage:
