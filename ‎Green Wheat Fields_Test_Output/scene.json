@@ -1,0 +1,401 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 0.00000",
+		"eye" : "0.00000 0.00000 1.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.10000000149011612,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.6189999580383301,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 2.0,
+		"bloomthreshold" : 0.64999997615814209,
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.5,
+		"cameraparallaxdelay" : 0.10000000149011612,
+		"cameraparallaxmouseinfluence" : 0.5,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"hdr" : false,
+		"nearz" : 0.0099999997764825821,
+		"orthogonalprojection" : 
+		{
+			"height" : 2160,
+			"width" : 3840
+		},
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"alignment" : "center",
+			"alpha" : 1.0,
+			"angles" : "0.00000 0.00000 0.00000",
+			"brightness" : 1.0,
+			"color" : "1.00000 1.00000 1.00000",
+			"colorBlendMode" : 0,
+			"copybackground" : true,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 19,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 1.5707963267948966,
+								"perspective" : 0.0,
+								"scale" : 25,
+								"speed" : 2,
+								"strength" : 0.029999999999999999
+							},
+							"id" : 20,
+							"textures" : 
+							[
+								null,
+								"【4k】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890)"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterflow/effect.json",
+					"id" : 36,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phasescale" : 6,
+								"speed" : 1,
+								"strength" : 0.01
+							},
+							"id" : 37,
+							"textures" : 
+							[
+								null,
+								"1-1【4k】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890)",
+								"effects/waterflowphase"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 60,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 1.5707963267948966,
+								"perspective" : 0,
+								"scale" : 30,
+								"speed" : 2,
+								"strength" : 0.029999999999999999
+							},
+							"id" : 0,
+							"textures" : 
+							[
+								null,
+								"2【4k】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890) 拷贝"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterflow/effect.json",
+					"id" : 67,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phasescale" : 6,
+								"speed" : 0.40000000000000002,
+								"strength" : 0.01
+							},
+							"id" : 68,
+							"textures" : 
+							[
+								null,
+								"3【4k】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890) 拷贝",
+								"effects/waterflowphase"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 74,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 1.5707963267948966,
+								"perspective" : 0,
+								"scale" : 35,
+								"speed" : 2.3999999999999999,
+								"strength" : 0.029999999999999999
+							},
+							"id" : 75,
+							"textures" : 
+							[
+								null,
+								"4【4k】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890) 拷贝"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterflow/effect.json",
+					"id" : 81,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phasescale" : 6,
+								"speed" : 0.40000000000000002,
+								"strength" : 0.01
+							},
+							"id" : 82,
+							"textures" : 
+							[
+								null,
+								"5【4k】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890) 拷贝",
+								"effects/waterflowphase"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 116,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.11,
+								"ratio" : 1,
+								"ripplestrength" : 0.066000000000000003,
+								"scale" : 1,
+								"scrolldirection" : 0.0,
+								"scrollspeed" : 0.0
+							},
+							"id" : 117,
+							"textures" : 
+							[
+								null,
+								"6-3【4k】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890) 拷贝",
+								"effects/waterripplenormal"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 130,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 2.6000000000000001,
+								"strength" : 0.029999999999999999
+							},
+							"id" : 131,
+							"textures" : 
+							[
+								null,
+								"7【4k】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890) 拷贝",
+								"masks/shake_mask_cb1c727a"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 156,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"AUDIOPROCESSING" : 3
+							},
+							"constantshadervalues" : 
+							{
+								"audioamount" : 1.0,
+								"audiobounds" : "0.0 1.2",
+								"audioexponent" : 1.0,
+								"bounds" : "0 1",
+								"frequencymax" : 3,
+								"frequencymin" : 0.0,
+								"friction" : "1 1",
+								"speed" : 2.2000000000000002,
+								"strength" : 0.040000000000000001
+							},
+							"id" : 157,
+							"textures" : 
+							[
+								null,
+								"7【4k】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890) 拷贝",
+								"masks/shake_mask_cb1c727a"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 162,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"amount" : 0.35999999999999999,
+								"bounds" : "0 1",
+								"noiseamount" : 0,
+								"noisespeed" : 0.5,
+								"phase" : 0.0,
+								"power" : 1,
+								"speed" : 1.2,
+								"tinthigh" : "0.5686274509803921 0.48627450980392156 0.13333333333333333",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 163,
+							"textures" : 
+							[
+								null,
+								"util/noise",
+								"8-1【4k】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890) 拷贝"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/pulse/effect.json",
+					"id" : 179,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"AUDIOPROCESSING" : 3
+							},
+							"constantshadervalues" : 
+							{
+								"amount" : 0.40000000000000002,
+								"audioamount" : 0.29999999999999999,
+								"audiobounds" : "0.5 1.0",
+								"audioexponent" : 1.0,
+								"bounds" : "0 1",
+								"frequencymax" : 3,
+								"frequencymin" : 0.0,
+								"noiseamount" : 0,
+								"noisespeed" : 0.5,
+								"phase" : 0,
+								"power" : 1,
+								"speed" : 1.6000000000000001,
+								"tinthigh" : "0.5686274509803921 0.48627450980392156 0.13333333333333333",
+								"tintlow" : "1 1 1"
+							},
+							"id" : 180,
+							"textures" : 
+							[
+								null,
+								"util/noise",
+								"8-1【4k】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890) 拷贝"
+							]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/foliagesway/effect.json",
+					"id" : 185,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phase" : 0.40000000000000002,
+								"power" : 1.0,
+								"ratio" : 0.40000000000000002,
+								"scale" : 0.02,
+								"scrolldirection" : 1.0471975511965976,
+								"speeduv" : 3.2000000000000002,
+								"strength" : 0.59999999999999998
+							},
+							"id" : 186,
+							"textures" : 
+							[
+								null,
+								"9-4【4k】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890) 拷贝",
+								"util/noise"
+							]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 14,
+			"image" : "models/【背景】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890).json",
+			"ledsource" : false,
+			"locktransforms" : true,
+			"name" : "【背景】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890)",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"parallaxDepth" : "1.00000 1.00000",
+			"perspective" : false,
+			"scale" : "1.00000 1.00000 1.00000",
+			"size" : "3840.00000 2160.00000",
+			"solid" : true,
+			"visible" : true
+		}
+	],
+	"version" : 1
+}

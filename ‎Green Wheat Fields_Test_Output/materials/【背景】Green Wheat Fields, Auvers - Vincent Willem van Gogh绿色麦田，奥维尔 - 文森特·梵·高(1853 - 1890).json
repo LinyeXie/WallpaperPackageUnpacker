@@ -1,0 +1,20 @@
+{
+	"passes" : 
+	[
+		{
+			"blending" : "translucent",
+			"combos" : 
+			{
+				"VERSION" : 2
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "disabled",
+			"depthwrite" : "disabled",
+			"shader" : "genericimage2",
+			"textures" : 
+			[
+				"【背景】Green Wheat Fields, Auvers - Vincent Willem van Gogh绿色麦田，奥维尔 - 文森特·梵·高(1853 - 1890)"
+			]
+		}
+	]
+}
