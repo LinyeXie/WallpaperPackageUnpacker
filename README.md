@@ -58,7 +58,7 @@ The output root directory can be changed in Preferences.
 Project homepage:
 
 ```text
-https://github.com/LinyeXie
+https://github.com/LinyeXie/WallpaperPackageUnpacker
 ```
 
 ## License
